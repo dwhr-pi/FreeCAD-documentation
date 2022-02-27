@@ -1,3 +1,14 @@
+[FreeCAD 0.18 Grundlagen #0 Erste Schritte in FreeCAD - CAD Anfänger Tutorial (Deutsch)](https://www.youtube.com/watch?v=rTvgCcOXfuw)  
+[FreeCAD 0.18 Grundlagen #1 Saubere Skizzen im Sketcher erstellen - CAD Anfänger Tutorial (Deutsch)](https://www.youtube.com/watch?v=OQodi9WOou4)  
+[FreeCAD 0.19 Grundkurs #1 - Dein Start in FreeCAD (DE)](https://www.youtube.com/watch?v=8tvBLCdyjI4)  
+[FreeCAD 0.19 Grundkurs #2 - Saubere Skizzen in FreeCAD (DE)](https://www.youtube.com/watch?v=wMkaVCYNrcA)  
+[FreeCAD 0.19 Grundkurs #3 - Skizzen für Fortgeschrittene (DE)](https://www.youtube.com/watch?v=iZFet4KjVE8)  
+[FreeCAD 0.19 Grundkurs #4 - Abschluss Sketcher (DE)](https://www.youtube.com/watch?v=D3VWkC6DAM4)  
+[FreeCAD 0.19 Grundkurs #5 - Stabile Modelle im Part Design von Beginn an (DE)](https://www.youtube.com/watch?v=OfVXgKyfVOg)  
+
+[FreeCAD-documentation](https://github.com/dwhr-pi/FreeCAD-documentation/edit/main/README.md)  
+[FreeCAD-Doc](https://github.com/dwhr-pi/FreeCAD-Doc/edit/master/README.md)  
+
 # The FreeCAD documentation
 
 **Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to the [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between MediaWiki and markdown formats. This is a work in progress towards a more usable and portable version of the documentation.
