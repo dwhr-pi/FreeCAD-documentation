@@ -17,18 +17,15 @@ Weitere Kurse findet man in der Youtube Playliste.
 [FreeCAD-Doc](https://github.com/dwhr-pi/FreeCAD-Doc/edit/master/README.md)  
 
 # FreeCad Tutorials
-
-# The FreeCAD documentation
-
-
-# FreeCad Hanbücher original
 [Google Suche](https://www.google.com/search?q=freecad+tutorials+deutsch&sxsrf=ALiCzsbWYVY7Mpx2Y7Cchlp8q7XROA--UA%3A1668999228714&ei=POh6Y-aaK-2Gxc8PhpOAwA0&oq=FreeCad+Tutorials+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgUIABCABDIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIICAAQgAQQywEyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeSgQIQRgASgQIRhgAUABY0RdgzSBoAHABeACAAVuIAaUBkgEBMpgBAKABAqABAcABAQ&sclient=gws-wiz-serp "")
 
+# FreeCad Hanbücher original
 [FreeCad Loslegen](https://wiki.freecadweb.org/Getting_started/de "")
 [FreeCad Tuotorials](https://wiki.freecadweb.org/Tutorials/de "")
-[](https://wiki.freecadweb.org/Manual:Introduction/de "")
+[FreeCad Handbuch: Einführung](https://wiki.freecadweb.org/Manual:Introduction/de "")
 
 
+# The FreeCAD documentation
 
 **Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to the [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between MediaWiki and markdown formats. This is a work in progress towards a more usable and portable version of the documentation.
 
