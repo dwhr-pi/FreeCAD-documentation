@@ -27,8 +27,8 @@ Anmerkungen: [[Image:Crystal Clear manual.png|right|150]]
 *Dieses Handbuch wird für die neueste stabile Version von FreeCAD geschrieben im Moment '''0.18''' (Anfang 2019). Das Handbuch ist in englischer Sprache als .pdf-Datei kostenfrei kopierbar, siehe [https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details GitBook]
 
 <div class="mw-translate-fuzzy">
-Der Inhalt dieses Handbuchs wird unter der [http://creativecommons.org/licenses/by/4.0/ Creative Commons 4.0]-Lizenz veröffentlich und kann frei/gratis (freely) verwendet, heruntergeladen kopiert und verändert werden.
-Die Quelldateien für dieses Handbuch werden auf diesem [[Main Page|Wiki]] und unter dem original [https://github.com/yorikvanhavre/FreeCAD-manual github]-Account bereitgestellt, das für die erste Version dieses Buchs verwendet wurde. Einfacher zu lesende HTML-, PDF-, MOBI- und EPUB-Versionen sind auf [https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details GitBook] verfügbar. Eine gedruckte Version ist in Vorbereitung.
+Der Inhalt dieses Handbuchs wird unter der (Creative Commons 4.0)[http://creativecommons.org/licenses/by/4.0/]-Lizenz veröffentlich und kann frei/gratis (freely) verwendet, heruntergeladen kopiert und verändert werden.
+Die Quelldateien für dieses Handbuch werden auf diesem [[Main Page|Wiki]] und unter dem original [https://github.com/yorikvanhavre/FreeCAD-manual github]-Account bereitgestellt, das für die erste Version dieses Buchs verwendet wurde. Einfacher zu lesende HTML-, PDF-, MOBI- und EPUB-Versionen sind auf (GitBook)[https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details] verfügbar. Eine gedruckte Version ist in Vorbereitung.
 </div>
 
 {{Docnav/de
