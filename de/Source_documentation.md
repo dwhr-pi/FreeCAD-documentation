@@ -17,7 +17,7 @@ Die Dokumentation ist online auf der [https://freecad.github.io/SourceDoc/
 
 Die Kompilierung der API Dokumentation folgt den gleichen allgemeinen Schritten wie die Kompilierung der FreeCAD Ausführdatei, wie auf der [[Compile_on_Linux/Unix/de|Kompilieren auf Linux]] Seite angegeben.
 
-!(compilation_workflow)[https://wiki.freecadweb.org/images/7/7a/FreeCAD_documentation_compilation_workflow.svg]
+![compilation_workflow](https://wiki.freecadweb.org/images/7/7a/FreeCAD_documentation_compilation_workflow.svg)
 !
 
 {{Caption|Allgemeiner Arbeitsablauf zur Erstellung der Programmierdokumentation von FreeCAD. Die Pakete Doxygen und Graphviz müssen sich im System befinden, ebenso wie der FreeCAD Quellcode selbst. CMake konfiguriert das System so, dass mit einer einzigen make Anweisung die Dokumentation für das gesamte Projekt in vielen HTML Dateien mit Diagrammen zusammengefasst wird.}}
