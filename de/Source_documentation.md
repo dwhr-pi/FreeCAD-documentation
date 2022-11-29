@@ -9,8 +9,8 @@
 
 {{TOCright}}
 
-==Überblick==
-Der FreeCAD Quellcode ist kommentiert, um eine automatische Generierung der Programmierdokumentation mit [[Doxygen/de|Doxygen]], einem beliebten Quellcode Dokumentationssystem, zu ermöglichen. Doxygen kann sowohl die C++ als auch die Python Teile von FreeCAD dokumentieren, was zu HTML Seiten mit Hyperlinks zu jeder dokumentierten Funktion und Klasse führt.
+## Überblick  
+Der FreeCAD Quellcode ist kommentiert, um eine automatische Generierung der Programmierdokumentation mit (Doxygen)[Doxygen/de|], einem beliebten Quellcode Dokumentationssystem, zu ermöglichen. Doxygen kann sowohl die C++ als auch die Python Teile von FreeCAD dokumentieren, was zu HTML Seiten mit Hyperlinks zu jeder dokumentierten Funktion und Klasse führt.
 
 Die Dokumentation ist online auf der [https://freecad.github.io/SourceDoc/
  FreeCAD API Website] verfügbar. Bitte beachte, dass diese Dokumentation möglicherweise nicht immer auf dem neuesten Stand ist; wenn Du mehr Details benötigst, lade den neuesten Quellcode von FreeCAD herunter und erstelle die Dokumentation selbst. Wenn Du dringende Fragen zum Code hast, stelle diese bitte im Entwicklerbereich des [https://forum.freecadweb.org/index.php FreeCAD Forum].
@@ -18,7 +18,6 @@ Die Dokumentation ist online auf der [https://freecad.github.io/SourceDoc/
 Die Kompilierung der API Dokumentation folgt den gleichen allgemeinen Schritten wie die Kompilierung der FreeCAD Ausführdatei, wie auf der [[Compile_on_Linux/Unix/de|Kompilieren auf Linux]] Seite angegeben.
 
 ![compilation_workflow](https://wiki.freecadweb.org/images/7/7a/FreeCAD_documentation_compilation_workflow.svg)
-!
 
 {{Caption|Allgemeiner Arbeitsablauf zur Erstellung der Programmierdokumentation von FreeCAD. Die Pakete Doxygen und Graphviz müssen sich im System befinden, ebenso wie der FreeCAD Quellcode selbst. CMake konfiguriert das System so, dass mit einer einzigen make Anweisung die Dokumentation für das gesamte Projekt in vielen HTML Dateien mit Diagrammen zusammengefasst wird.}}
 
