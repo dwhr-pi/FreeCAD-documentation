@@ -14,18 +14,18 @@ Die Kompilierung der API Dokumentation folgt den gleichen allgemeinen Schritten 
 
 ### Komplette Dokumentation 
 
-Wenn du Doxygen installiert hast, ist es sehr einfach, die Dokumentation zu erstellen. Installiere auch [https://www.graphviz.org/ Graphviz], um Diagramme erstellen zu können, die die Beziehungen zwischen verschiedenen Klassen und Bibliotheken im FreeCAD Code zeigen. Graphviz wird auch von FreeCADs [[Std_DependencyGraph/de|Abhängigkeitsgraph]] verwendet, um die Beziehungen zwischen verschiedenen Objekten anzuzeigen.
+Wenn du Doxygen installiert hast, ist es sehr einfach, die Dokumentation zu erstellen. Installiere auch [Graphviz](https://www.graphviz.org/), um Diagramme erstellen zu können, die die Beziehungen zwischen verschiedenen Klassen und Bibliotheken im FreeCAD Code zeigen. Graphviz wird auch von FreeCADs [[Std_DependencyGraph/de|Abhängigkeitsgraph]] verwendet, um die Beziehungen zwischen verschiedenen Objekten anzuzeigen.
 ´´´
 sudo apt install doxygen graphviz
 ´´´
 
-´
-Folge dann den gleichen Schritten, die Du bei der Kompilierung von FreeCAD durchführen würdest, wie auf der Seite [[Compile_on_Linux/Unix/de|Kompilieren auf Unix]] beschrieben, und hier aus Gründen der Übersichtlichkeit zusammengefasst.
+ 
+Folge dann den gleichen Schritten, die Du bei der Kompilierung von FreeCAD durchführen würdest, wie auf der Seite [Kompilieren auf Unix](Compile_on_Linux/Unix/de) beschrieben, und hier aus Gründen der Übersichtlichkeit zusammengefasst.
 * Hole Dir den Quellcode von FreeCAD und lege ihn in ein eigenes Verzeichnis {{incode|freecad-source}}.
 * Erstelle ein anderes Verzeichnis {{incode|freecad-build}}, in dem Du FreeCAD und seine Dokumentation kompilieren wirst.
 * Konfiguriere die Quellen mit {{incode|cmake}}, stelle sicher, dass Du das Quellverzeichnis angibst und die erforderlichen Optionen für Dein Build angibst .
 * Triggere die Erstellung der Dokumentation mit {{incode|make}}.
-´
+ 
 ´´´
 git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 mkdir freecad-build
