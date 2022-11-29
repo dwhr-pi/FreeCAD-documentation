@@ -15,52 +15,52 @@ Die Kompilierung der API Dokumentation folgt den gleichen allgemeinen Schritten 
 ### Komplette Dokumentation 
 
 Wenn du Doxygen installiert hast, ist es sehr einfach, die Dokumentation zu erstellen. Installiere auch [https://www.graphviz.org/ Graphviz], um Diagramme erstellen zu können, die die Beziehungen zwischen verschiedenen Klassen und Bibliotheken im FreeCAD Code zeigen. Graphviz wird auch von FreeCADs [[Std_DependencyGraph/de|Abhängigkeitsgraph]] verwendet, um die Beziehungen zwischen verschiedenen Objekten anzuzeigen.
-{{Code|code=
+´´´
 sudo apt install doxygen graphviz
-}}
+´´´
 
-<div class="mw-translate-fuzzy">
+´
 Folge dann den gleichen Schritten, die Du bei der Kompilierung von FreeCAD durchführen würdest, wie auf der Seite [[Compile_on_Linux/Unix/de|Kompilieren auf Unix]] beschrieben, und hier aus Gründen der Übersichtlichkeit zusammengefasst.
 * Hole Dir den Quellcode von FreeCAD und lege ihn in ein eigenes Verzeichnis {{incode|freecad-source}}.
 * Erstelle ein anderes Verzeichnis {{incode|freecad-build}}, in dem Du FreeCAD und seine Dokumentation kompilieren wirst.
 * Konfiguriere die Quellen mit {{incode|cmake}}, stelle sicher, dass Du das Quellverzeichnis angibst und die erforderlichen Optionen für Dein Build angibst .
 * Triggere die Erstellung der Dokumentation mit {{incode|make}}.
-</div>
-{{Code|code=
+´
+´´´
 git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 mkdir freecad-build
 cd freecad-build
 cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
-}}
+´´´
 
 Während Du Dich im Build-Verzeichnis befindest, gib die folgende Anweisung aus, um nur die Dokumentation zu erstellen.
-{{Code|code=
+´´´
 make -j$(nproc --ignore=2) DevDoc
-}}
-Wie unter [[Compiling (Speeding up)/de|Kompilieren (Beschleunigen)]] erwähnt, legt die Option {{incode|-j}} die Anzahl der CPU Kerne fest, die für die Kompilierung verwendet werden. Die resultierenden Dokumentationsdateien erscheinen im Verzeichnis
-{{Code|code=
+´´´
+Wie unter [Kompilieren (Beschleunigen)](Compiling (Speeding up)/de) erwähnt, legt die Option {{incode|-j}} die Anzahl der CPU Kerne fest, die für die Kompilierung verwendet werden. Die resultierenden Dokumentationsdateien erscheinen im Verzeichnis
+´´´
 freecad-build/doc/SourceDocu/html/
-}}
+´´´
 
 Der Einstiegspunkt in die Dokumentation ist die Datei {{incode|index.html}}, die du mit einem Webbrowser öffnen kannst:
-{{Code|code=
+´´´
 xdg-open freecad-build/doc/SourceDocu/html/index.html
-}}
+´´´
 
 Das {{incode|DevDoc}} Ziel erzeugt eine beträchtliche Datenmenge, etwa 5 GB neue Dateien, insbesondere aufgrund der von Graphviz erstellten Diagramme.
 
 ### Gekürzte Dokumentation 
 
-Die komplette Dokumentation belegt etwa 3 GB Plattenplatz. Eine alternative, kleinere Version der Dokumentation, die nur ca. 600 MB benötigt, kann mit einem anderen Ziel erstellt werden. Dies ist die Version, die auf der [https://freecad.github.io/SourceDoc/ FreeCAD API Webseite] angezeigt wird.
-{{Code|code=
+Die komplette Dokumentation belegt etwa 3 GB Plattenplatz. Eine alternative, kleinere Version der Dokumentation, die nur ca. 600 MB benötigt, kann mit einem anderen Ziel erstellt werden. Dies ist die Version, die auf der [FreeCAD API Webseite](https://freecad.github.io/SourceDoc/) angezeigt wird.
+´´´
 make -j$(nproc --ignore=2) WebDoc
-}}
+´´´
 
-The documentation on the [https://freecad.github.io/SourceDoc/ FreeCAD API website] is produced automatically from https://github.com/FreeCAD/SourceDoc . Anyone can rebuild it and submit a pull request:
+The documentation on the [FreeCAD API website](https://freecad.github.io/SourceDoc/) is produced automatically from https://github.com/FreeCAD/SourceDoc . Anyone can rebuild it and submit a pull request:
 
 * Fork the repo at https://github.com/FreeCAD/SourceDoc
 * on your machine: clone the FreeCAD code (if you haven't yet), create a build dir for the doc, and clone the above SourceDoc repo inside. That SourceDoc will be updated when you rebuild the doc, and you'll be able to commit & push the results afterwards:
-{{Code|code=
+´´´
 git clone https://github.com/FreeCAD/FreeCAD
 cd FreeCAD
 mkdir build
@@ -74,12 +74,12 @@ make WebDoc
 cd doc/SourceDocu/html
 git commit
 git push
-}}
+´´´
 * Go to your fork online, and create a pull request.
 
 <div class="mw-translate-fuzzy">
 == Andere Versionen ==
-[http://free-cad.sf.net/SrcDocu/index.html FreeCAD 0.12] Dokumentation, die in Sourceforge untergebracht ist.
+[FreeCAD 0.12](http://free-cad.sf.net/SrcDocu/index.html) Dokumentation, die in Sourceforge untergebracht ist.
 </div>
 
 ## Coin3D Dokumentation integrieren 
